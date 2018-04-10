@@ -1,0 +1,8 @@
+---
+- hosts: localhost 
+  connection: local
+  gather_facts: false
+  tasks:
+  - name: Pause for 5 minutes
+    pause:
+      minutes: 5
